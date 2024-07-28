@@ -36,6 +36,67 @@
 // }
 // console.log(divideElement(100, 3));
 
+//6-masala
+// let year = +prompt("yilni kiriting");
+// function findCentury(year) {
+//   let res = Math.ceil(year / 100);
+//   switch (res) {
+//     case 1:
+//       return "1-asr";
+//     case 2:
+//       return "2-asr";
+//     case 3:
+//       return "3-asr";
+//     case 4:
+//       return "4-asr";
+//     case 5:
+//       return "5-asr";
+//     default:
+//       return `${res}-asr`;
+//   }
+// }
+// console.log(findCentury(year));
+
+//7-masala
+//8-masala
+
+//11-masala
+// let num = +prompt("sonni kiriting");
+// let element = +prompt("sonni kiriting");
+// function degreeElement(num, element) {
+//   return Math.pow(num, element);
+// }
+// console.log(degreeElement(num, element));
+
+//12-masala
+// let str = "hell o wor ld";
+// function removeGap(str) {
+//   let res = str.replaceAll(" ", "");
+//   return res;
+// }
+// console.log(removeGap(str));
+
+//13-masala
+// let str1 = "salom";
+// let str2 = "bolalar";
+// function concatElement(str1, str2) {
+//   let res = str1 + " " + str2;
+//   return res;
+// }
+// console.log(concatElement(str1, str2));
+
+//14-masala
+
+//15-masala
+// function CapitalizeFirstLetter(str) {
+//   let res = str.split(" ");
+//   res = res.map(function (value) {
+//     return value[0].toUpperCase() + value.slice(1);
+//   });
+//   return res.join(" ");
+// }
+// console.log(CapitalizeFirstLetter("hello world"));
+
 //Massivlarga oid masalalar
 //1-masala
 // function sumElement(arr) {
@@ -134,7 +195,6 @@
 //   for (const iterator of arr) {
 //     res.push(num + iterator);
 //   }
-
 //   return res;
 // }
 // console.log(addNumber(arr));
@@ -151,3 +211,83 @@
 //   return min;
 // }
 // console.log(minElement(arr));
+
+//Qo`shimcha masalalar
+//1. **Berilgan sonni 3 ga ko'paytiradigan funksiya yozing.**
+// function multiplyElement(num) {
+//   return num * 3;
+// }
+// console.log(multiplyElement(4));
+
+//2. **Berilgan sonning kvadratini hisoblaydigan funksiya yozing.**
+// function squareElement(num) {
+//   return num ** 2;
+// }
+// console.log(squareElement(6));
+
+//3. **Massivning birinchi elementini qaytaradigan funksiya yozing.**
+// let arr = [4, 2, 3, 6, 89, 6];
+// function firstElement(arr) {
+//   return arr[0];
+// }
+// console.log(firstElement(arr));
+
+//4. **Massivning oxirgi elementini qaytaradigan funksiya yozing.**
+// let arr = [6, 9, 3, 4, 8, 9, 6];
+// function lastElement(arr) {
+//   return arr.length - 1;
+// }
+// console.log(lastElement(arr));
+
+// 5. **Massivning uzunligini qaytaradigan funksiya yozing.**
+// let arr = [9, 2, 3, 4, 54, "salom", 23];
+// function lengthArray(arr) {
+//   return arr.length;
+// }
+// console.log(lengthArray(arr));
+
+// 6. **Berilgan stringni kichik harflarga aylantiradigan funksiya yozing.**
+// let str = "SALOM DUNYO";
+// function toLowerCaseElement(str) {
+//   return str.toLowerCase();
+// }
+// console.log(toLowerCaseElement(str));
+
+// 7. **Massivning har bir elementini 2 ga ko'paytiradigan funksiya yozing.**
+// let arr = [1, 3, 6, 7, 8, 6];
+// function multiplyTwo(arr) {
+//   let res = [];
+//   for (const iterator of arr) {
+//     res.push(iterator * 2);
+//   }
+//   return res;
+// }
+// console.log(multiplyTwo(arr))
+
+// 8. **Berilgan stringning uzunligini qaytaradigan funksiya yozing.**
+// let str = "salom bolalar";
+// function lengthString(str) {
+//   return str.length;
+// }
+// console.log(lengthString(str));
+
+// 9. **Massivdagi juft sonlarni filtrlab qaytaradigan funksiya yozing.**
+// let arr = [5, 9, 3, 4, 6, 7, 8];
+// function evenElement(arr) {
+//   let res = [];
+//   for (const iterator of arr) {
+//     if (iterator % 2 == 0) {
+//       res.push(iterator);
+//     }
+//   }
+//   return res;
+// }
+// console.log(evenElement(arr));
+
+// 10. **Berilgan stringni teskari qaytaradigan funksiya yozing.**
+// let str = "hello world";
+// function reverseString(str) {
+//   let res = str.split(" ").reverse();
+//   return res.join(" ");
+// }
+// console.log(reverseString(str));
